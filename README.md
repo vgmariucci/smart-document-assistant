@@ -34,3 +34,44 @@ This project demonstrates a comprehensive document analysis system combining cla
 - FAISS (Vector storage)
 - FastAPI (Production API)
 - pytest (Testing)
+
+### Recomendend Folder Structure
+```
+intelligent-document-analysis/
+├── data/
+│   ├── raw/              # Original, immutable input data
+│   ├── processed/        # Cleaned, transformed data
+│   └── interim/         # Intermediate data forms
+│
+├── src/
+│   ├── data_processing/
+│   │   ├── __init__.py
+│   │   ├── document_processor.py
+│   │   └── data_loader.py
+│   │
+│   ├── models/
+│   │   ├── __init__.py
+│   │   ├── classical_ml.py
+│   │   └── rag_system.py
+│   │
+│   ├── api/
+│   │   ├── __init__.py
+│   │   ├── main.py
+│   │   └── schemas.py
+│   │
+│   └── utils/
+│       ├── __init__.py
+│       ├── config.py
+│       └── logger.py
+│
+├── tests/
+│   ├── unit/
+│   └── integration/
+│
+├── notebooks/            # Exploratory analysis and examples
+├── config/               # Configuration files
+├── models/               # Saved model binaries
+├── docs/                 # Documentation
+├── requirements.txt
+└── .env.example
+```
