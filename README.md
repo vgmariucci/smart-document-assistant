@@ -35,7 +35,7 @@ This project demonstrates a comprehensive document analysis system combining cla
 - FastAPI (Production API)
 - pytest (Testing)
 
-### Recomendend Folder Structure
+### Recomended Folder Structure
 ```
 intelligent-document-analysis/
 ├── data/
