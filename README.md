@@ -13,7 +13,7 @@ This project demonstrates a comprehensive document analysis system combining cla
 ## Setup
 
 1. Clone the repository
-2. Install dependencies: `pip install -r requirements.txt`
+2. Install dependencies: `pip install -r requirements.txt` or Poetry to manage virtual environments and libraries (Poetry was applied in this project).
 3. Place your documents in `data/raw/` (sample documents provided)
 4. Run the processing pipeline: `python src/data_processing/document_processor.py`
 5. Initialize the RAG system: `python src/models/rag_system.py`

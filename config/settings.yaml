@@ -1,0 +1,11 @@
+# config/settings.yaml
+data_settings:
+  raw_data_path: "data/raw/"
+  processed_path: "data/processed/"
+  allowed_formats: [csv, xlsx]
+
+model_settings:
+  vectorizer: "tfidf"
+  random_forest_params:
+    n_estimators: 100
+    max_depth: 10
