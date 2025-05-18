@@ -4,11 +4,6 @@ Some useful commands to use in bash to manage python libraries:
 
 pip freeze > requirements.txt
 
-- If you're using Poetry, it manages dependencies in pyproject.toml, 
-but you can export a requirements.txt if needed:
-
-poetry export -f requirements.txt --output requirements.txt
-
 - To install the libraries listed in a requirements.txt file:
 
 pip install -r requirements.txt
